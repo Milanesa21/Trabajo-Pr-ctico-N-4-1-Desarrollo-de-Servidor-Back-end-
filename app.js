@@ -16,6 +16,7 @@ app.use(express.json());
 const routes = require('./routes/routes');
 app.use('/', routes);
 
+ 
 app.listen(port, () => {
   console.log(`Servidor escuchando en el puerto ${port}`);
 });
